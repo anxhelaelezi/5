@@ -343,6 +343,6 @@ def create_indices():
 # Create the datatsets, views and indices
 # To disable any of the following calls, comment out the line
 insert_datasets()
-# create_filtering_views()
-# create_aggregation_views()
-# create_indices()
+create_filtering_views()
+create_aggregation_views()
+create_indices()
